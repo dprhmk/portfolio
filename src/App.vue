@@ -5,9 +5,13 @@
     <div class="relative m-10 border border-slate-100 rounded-3xl p-8 shadow-xl">
       <div class="flex mb-4">
         <div class="w-1/2 sm:w-4/12 px-4">
-          <img src="/user.jpg" alt="user-photo" />
+          <img
+            class="box-border rounded-full border-4 border-sky-500"
+            src="/media/profile-pic.png"
+            alt="user-photo"
+          />
         </div>
-        <div class="w-2/3 text-left">
+        <div class="w-2/3 text-left ml-8">
           <h1 class="text-5xl font-extrabold">
             <span class="hand-greeting">👋</span>
             Hi, I'm
@@ -36,6 +40,31 @@
             </li>
             <li class="pt-2"><span class="text-3xl mr-4" role="img">📞</span> +38 098-***-****</li>
           </ul>
+          <div class="text-5xl pt-4">
+            <a
+              class="mr-8"
+              target="_blank"
+              aria-label="github"
+              rel="noopener noreferrer"
+              href="https://github.com/dprhmk"
+              ><i class="fa fa-github" aria-hidden="true"></i></a
+            ><a
+              target="_blank"
+              aria-label="linkedin"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/dima-pryimak-5a46b2213/"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+            <div class="pt-4">
+              <a
+                target="_blank"
+                href="dima_pryimak_cv.pdf"
+                class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow text-base"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
