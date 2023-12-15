@@ -7,7 +7,7 @@
         <div class="w-1/2 sm:w-4/12 px-4">
           <img
             class="box-border rounded-full border-4 border-sky-500"
-            src="/media/profile-pic.png"
+            src="/media/photo.jpg"
             alt="user-photo"
           />
         </div>
